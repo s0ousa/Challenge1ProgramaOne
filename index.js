@@ -61,7 +61,7 @@ botaoCopiar.addEventListener("click", function() {
             if (textoSeparado[i] == "o") {
                 textoSeparado[i] = "ober";
             }
-            if (textoSeparado[i] == "e") {
+            if (textoSeparado[i] == "u") {
                 textoSeparado[i] = "ufat";
             }
         };
