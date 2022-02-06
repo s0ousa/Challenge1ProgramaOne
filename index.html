@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div class="container-pai">
+        <h1>Criptografia</h1>
+        <div class="container-filhos" id="container-entrada">
+            <p>Digite sua mensagem com apenas letras minúsculas, sem acentos.</p>
+           <!-- <input type="text" class="inputs" id="input-entrada" placeholder="Insira seu texto aqui."> --> 
+            <textarea name="" id="input-entrada" class="inputs" cols="30" rows="10" placeholder="Insira seu texto aqui." ></textarea>
+            <div class="botoes">
+                <button class="botao" id ="botao-cript">
+                    Criptografar!
+                </button>
+                <button  class="botao" id ="botao-descript">
+                    Descriptografar!
+                </button>
+            </div>
+            
+        </div>
+        <div class="container-filhos" id="container-saida">
+            <p>Resultado: </p>
+            <textarea name="" id="input-saida" class="inputs" cols="30" rows="10" placeholder="O seu resultado irá aparecer aqui."></textarea>
+            
+            <button class="botao" id="copia" onclick="ctrlC()">Copiar resultado</button>
+        </div>
+    </div>
+
+    <!-- Importando JS-->
+    <script src="index.js"></script>
+</body>
+</html>
